@@ -7,7 +7,7 @@
     <link ref="stylesheet" href="./styles/normolize.css">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Calculator</title>
-</head>
+
 <style>
     @font-face {
     font-family: Museo Sans Cyrl;
@@ -22,22 +22,24 @@
     src: url(font/Montserrat-Bold.ttf);
 }
 </style>
+<script src="./index.js" type="text/javascript" defer></script>
+</head>
 <body>
     <div class="container">
         <label class="caption">Calculator</label>
         <div class="input-field">
-            <input class="input-digital" type="text">
+            <input class="input-digital" type="text" maxlength="10">
         </div>
         <div class="button-fields">
             <button class="btn btn-digital btn-AC">AC</button>
             <button class="btn btn-digital btn-plus-minus">+/-</button>
             <button class="btn btn-digital btn-percent">%</button>
-            <button class="btn btn-operation btn-divide">÷</button><br>
+            <button class="btn btn-operation btn-dil">÷</button><br>
 
             <button class="btn btn-digital btn-7">7</button>
             <button class="btn btn-digital btn-8">8</button>
             <button class="btn btn-digital btn-9">9</button>
-            <button class="btn btn-operation btn-mult">x</button><br>
+            <button class="btn btn-operation btn-mno">x</button><br>
 
             <button class="btn btn-digital btn-4">4</button>
             <button class="btn btn-digital btn-5">5</button>
@@ -51,7 +53,7 @@
 
             <button class="btn btn-digital btn-0">0</button>
             <button class="btn btn-digital btn-coma">,</button>
-            <button class="btn btn-operation btn-equel">=</button>
+            <button class="btn btn-operation btn-dor">=</button>
         </div>
     </div>
 </body>

@@ -2,7 +2,8 @@
 {
     width: 414px;
     height: 736px;
-    background:  #cccccc;;
+    background:  #cccccc;
+    margin: 0 auto;
 }
 .caption
 {
@@ -29,6 +30,7 @@
 }
 .input-digital
 {
+    text-align: right;
     display: inline-block;
     align-items: center;
     font-family: Digital Numbers;
@@ -37,7 +39,6 @@
     font-size: 40px;
     line-height: 52px;
     background: linear-gradient(92.94deg, #CAD4C5 0%, #B2BFA5 100%);
-    box-shadow: inset 0px 0px 9px rgba(0, 0, 0, 0.25);
     width: 320px;
     height: 52px;
     margin-top: 23px;
@@ -59,6 +60,9 @@
     border: none;
     font-family: Montserrat-Bold;
     font-style: normal;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
     width: 80px;
     height: 80px;
     border-radius: 20px;
